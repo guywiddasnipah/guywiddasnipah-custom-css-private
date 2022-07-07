@@ -1,0 +1,720 @@
+/* Better Visibility for Market Campers */
+/* Update for Patch - V0.3 */
+/* Market */
+.hover-bg[data-v-a7408f32] {
+    opacity: 0
+}
+.subj-img[data-v-a7408f32] {
+    max-width: 13rem;
+    max-height: 6.5rem;
+    margin-top: 0.1rem;
+    filter: drop-shadow(rgba(0,0,0,0.98) 0px 0.15rem 0.15rem);
+}
+.take-btn[data-v-a7408f32] {
+    margin-right: 10.3rem;
+    margin-bottom: 2rem;
+    border-radius: 7px;
+    background-color: rgba(128,128,128,0.33) !important;
+    --hover-color: var(--primary-1) !important;
+    --top: #ffffff00 !important;
+    --bottom: #ffffff00 !important;
+    backdrop-filter: blur(10px) !important;
+}
+
+/* Inventory */
+/* Avatar */
+.player-lobby[data-v-15afb304] {
+    width: 60rem;
+    height: 39rem;
+    margin-left: -12.5rem;
+    margin-top: -9rem;
+}
+.hover-bg[data-v-15afb304] {
+    opacity: 0
+}
+.subject[data-v-15afb304] {
+    width: 12.55rem;
+}
+.subj-img[data-v-15afb304] {
+    max-width: 11.5rem;
+    max-height: 6.7rem;
+    margin-top: 0.1rem;
+    filter: drop-shadow(rgba(0,0,0,0.98) 0px 0.15rem 0.15rem);
+}
+
+/* Bkg Wallpaper */
+#app > div.interface.text-2 > div.background {
+    background-image: url(https://wallpapercave.com/wp/CQooiuV.jpg)
+}
+
+.pattern-bg {
+    display: none;
+}
+
+/* Feedback */
+#app > div.interface.text-2 > div.background > div.bg-radial {
+    position: absolute !important;
+    height: 45px !important;
+    width: 105px !important;
+    top: 64rem !important;
+    left: 0rem !important;
+    background: #ffffff00 !important;
+}
+#app > div.interface.text-2 > div.background > div.bg-radial::after {
+    font-size: 1rem;
+    content: "Suggestions? ";
+    padding: 0.6rem !important;
+    color: #ffffff;
+    position: fixed;
+    top: 95%;
+    left: 0rem;
+    z-index: 10;
+    pointer-events: auto;
+    backdrop-filter: blur(3px) !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+    border-top: none !important;
+    background-color: var(--background) !important;
+    background: var(--corners);
+    background-repeat: no-repeat !important;
+    background-size: 10px 10px !important;
+    border-radius: 0px !important;
+}
+#app > div.interface.text-2 > div.background > div.bg-radial:hover::after {
+    font-size: 1rem;
+    text-align: left;
+    white-space: pre;
+    content: "Discord: Biscuit#5113";
+    backdrop-filter: blur(3px) !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+    border-top: none !important;
+    background-color: var(--background) !important;
+    background: var(--corners);
+    background-repeat: no-repeat !important;
+    background-size: 10px 10px !important;
+    border-radius: 0px !important;
+    transition: all 0.3s cubic-bezier(0.45, 0.05, 0.55, 0.95);
+    border: none !important;
+    padding: 0.9rem;
+    width: auto;
+    max-width: 350px;
+    height: 389px;
+    color: #ffffff;
+    position: fixed;
+    top: 41.99em;
+    left: 0rem;
+}
+ /* Always On-Screen Crosshair */
+.crosshair-static{
+    visibility: visible !important;
+    position: absolute;
+    display: flex !important;
+}
+
+.count[data-v-15afb304] {
+    font-size: 15px
+}
+.count[data-v-a7408f32] {
+    font-size: 15px
+}
+
+/* Ad Block */
+#ad-bottom,
+#ad-left {
+    width: 0px !important;
+}
+.chat-cont[data-v-679cb6a8] {
+    display: none!important;
+}
+.preview[data-v-679cb6a8] {
+    width: 30rem;
+}
+.image[data-v-679cb6a8] {
+    width: 30rem;
+}
+.item-name[data-v-a7408f32] {
+    font-weight: 600;
+}
+.count[data-v-6171d983] {
+    font-weight: 900;
+    font-size: 1.0rem;
+    background-color: rgb(0,0,0) !important;
+    color: rgb(255,162,0) !important;
+}
+.item-name[data-v-6171d983] {
+    font-weight: 500;
+}
+.heads[data-v-c5d917c8] { display: none;
+}
+#app > div.interface.text-2 > div.background {
+    background-image: url("https://wallpapercave.com/wp/CQooiuV.jpg");
+    background-size: 100%
+}
+/* Profile, Exp, And Moneys */
+.card-cont[data-v-1cbd79ff] {
+    background: #00000000;
+    border-bottom: 6px solid #00000000;
+    border-top: 4px solid #00000000;
+}
+
+.moneys[data-v-6bc918e5] {
+    margin-left: 56px;
+    margin-top: 734px;
+}
+/* Clan War */
+.card[data-v-5b2dc87c] {
+    background: linear-gradient(306deg, #030303, #ff00009c);
+}
+/* Leaderboard */
+.background-leaders[data-v-270b3af4] {
+    background: radial-gradient(39.55% 50% at 50% 50%, #ff00009c,rgb(192 0 255 / 0%) 100%);
+}
+/* Friends */
+.friend[data-v-197190ba]:hover {
+    background-color: #3c4b6800;
+}
+
+.friend[data-v-197190ba] {
+    background: linear-gradient(314deg, #030303, #ff0000);
+}
+
+.level-cont[data-v-197190ba] {
+    background-color: #4c4c4c;
+    border-right: solid 2px #2f395700;
+}
+
+.add[data-v-197190ba], .delete[data-v-197190ba] {
+    background-color: rgba(60,75,104,0)00;
+    border-left: solid 2px #2f395700;
+}
+
+#view > div > div > div.content > div > div.add-friends.text-2 > div.input > button {
+    background-color: #ffb91400 !important;
+    --hover-color: #fcd37300 !important;
+    --top: #fcd37300 !important;
+    --bottom: #b6830e00 !important;
+}
+
+.no-requests[data-v-541058a1] {
+    color: rgb(209,2,2);
+}
+
+.tab[data-v-7fc86901]:hover {
+    color: #ff0000;
+}
+
+.active-tab[data-v-7fc86901] {
+    color: #ff0000;
+}
+/* News */
+.card[data-v-02f6ceaf] {
+
+    background-color: rgba(59,73,117,0)00;
+}
+/* Left Interface*/
+.left-interface .profile {
+    background: transparent !important;
+}
+
+.left-interface .progress-label {
+    display: none;
+}
+
+.left-interface .progress-lvl {
+    margin-bottom: 15px;
+}
+
+.left-interface .progress-line {
+    background: #464545ad !important;
+    height: 17px;
+}
+
+.left-interface .progress {
+    background: -webkit-gradient(linear, left top, right top, from(#000000), to(#ff0000)) !important;
+    background: linear-gradient(to right, #000000, #ff0000) !important;
+}
+
+.left-interface .level {
+    color: rgb(255,15,15);
+}
+
+.left-interface .avatar-info,
+.left-interface .user-info,
+.left-interface .money {
+    background: transparent !important;
+    border-top: none !important;
+    border-bottom: none !important;
+}
+
+.left-interface .avatar-info:hover,
+.left-interface .user-info:hover {
+    background: transparent !important;
+}
+
+/* Left Icons */
+.svg-icon--news,
+.svg-icon--cube-edit,
+.svg-icon--gamepad,
+.svg-icon--store,
+.svg-icon--castle2 {
+    display: none;
+}
+.left-icons,
+.left-icons > div {
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.left-icons[data-v-6bc918e5] {
+    left: unset;
+    top: 86%;
+}
+
+/* Transparent Play Button */
+#play-btn {
+    background: rgba(255,0,0,0.25) !important;
+    box-shadow: 4px 4px 10px #f60303 !important;
+}
+
+#play-btn .border-top,
+#play-btn .border-bottom {
+    background: none;
+}
+
+.triangle[data-v-02c36fca] {
+    display: none !important;
+}
+/* Twitch Stream Hover */
+.live-streams {
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+
+.live-streams:hover {
+    opacity: 1;
+}
+.profile-cont .profile {
+    background: linear-gradient(to bottom, #000000, #ff0000) !important;
+}
+.soc-group[data-v-26102dd2] {
+    display: none !important;
+}
+
+.soc-group[data-v-f6928a74] {
+    display: none !important;
+}
+.settings[data-v-27986c34] {
+    margin-top: 17px;
+}
+.clans,
+.hub-container,
+.mobile-fullscreen,
+.add-friends,
+.tab-bar,
+.top-items,
+.subject,
+.inventory .avatar,
+.inventory .bottom {
+	background: transparent !important;
+}
+
+.head-text,
+.reset-time,
+.info-awards,
+.news,
+.list-cont,
+.card-profile,
+.profile .k-d,
+.profile .statistics,
+.profile-cont .progress[data-v-d2be3bc6] {
+	background: transparent !important;
+	box-shadow: none !important;
+}
+
+.top-bar,
+.home,
+.name-page {
+	display: none !important;
+}
+
+.container {
+	background: transparent !important;
+	backdrop-filter: blur(5px);
+	box-shadow: none !important;
+}
+.tabs[data-v-c835fc7a],
+.tab[data-v-3d11cf09],
+.gun[data-v-6171d983],
+.subjects[data-v-6171d983],
+.item[data-v-319b95e8],
+.champions-list[data-v-3ade8f70],
+.item[data-v-3ade8f70],
+.subjects[data-v-a7408f32],
+.info-content[data-v-2e9c7bab],
+.progress-label[data-v-30f27444],
+.select-mod[data-v-e0ea0f78],
+.select-region[data-v-e0ea0f78],
+.selected[data-v-4f6bb432],
+.input[data-v-4f6bb432],	
+.friend[data-v-197190ba],
+.level-cont[data-v-197190ba],
+.delete[data-v-197190ba],
+.tabs[data-v-7fc86901],
+.input[data-v-71ff48da],
+.server {
+	background: transparent !important;
+	border: none !important;
+}
+
+.bg-radial {
+	display: none;
+}
+
+.pattern-bg {
+	background: url(https://wallpapercave.com/wp/CQooiuV.jpg) repeat !important;
+	animation: animate 10s linear infinite !important;
+}
+
+
+/*  BG GONE */
+.add-friends,
+.moneys > div,
+#auth-user > div,
+#left-icons > div > div,
+#view > div > div > div.content > div > div.clans,
+#view > div > div > div.content > div > div.avatar,
+#app > div.loading-scene > div.background-cont > div.background,
+#view > div > div > div.content > div > div.avatar > div.bottom,
+#view > div > div > div.content > div > div > div.preview.text-2,
+#view > div > div > div.content > div > div.content > div.subjects,
+#app > div.game-interface > div.esc-interface > div.right-container,
+#view > div > div > div.content > div > div > div.preview.text-2 > div,
+#view > div > div > div.content > div > div.add-friends.text-2 > div.input,
+#view > div > div > div.content > div > div.add-friends.text-2 > div.head-text,
+#app > div.game-interface > div.desktop-game-interface > div.state > div.hp > div,
+#app > div.game-interface > div.desktop-game-interface > div.state-cont > div.left > div,
+#app > div.game-interface > div.desktop-game-interface > div.state-cont > div.kill-death > div,
+#app > div.end-modal > div.content > div.right-cont-content > div.next-round.text-2 > div.level,
+#app > div.end-modal > div.content > div.chat > div.chat.chat-position > div.messages.messages-cont,
+#app > div.game-interface > div.desktop-game-interface > div.chat.chat-position > div.messages.messages-cont,
+#view > div > div > div.content > div > div > div.chat-cont > div.chat.chat > div.messages.messages-cont.small {
+	background: none !important;
+}
+/*  REMOVE BORDERS  */
+.tab,
+.card-cont,
+.container-card,
+#auth-user > div,
+#left-icons > div > div,
+#view > div > div > div.content > div > div.content > div.subjects,
+#view > div > div > div.content > div > div.content > div.tabs.text-2,
+#view > div > div > div.content > div > div.add-friends.text-2 > div.input,
+#view > div > div > div.content > div > div.content > div.tabs.text-2 > div.limit,
+#view > div > div > div.content > div > div.clans > div.my-clan > div.list-container > div.list > div.item,
+#view > div > div > div.content > div > div.clans > div.champions-container > div.awards-cont > div.cards > div > div.card-list > div {
+	border: none !important;
+}
+
+
+
+/*  BG: BASE - COLOR: ACCENT   */
+.level,
+.levels,
+.lvl-leader,
+.level > div {
+	background: var(--baseColor) !important;
+	color: var(--accentColor) !important;
+}
+
+/*  BG: BASE        */
+.top-bar,
+.card-cont,
+.tab:hover,
+.tab.active,
+.tab.active-tab,
+.champions-list,
+.card-cont.user-info,
+#play > div > div.play-content-up > div > div,
+#app > div.game-interface > div.death-cont > div,
+#view > div > div > div.content > div > div.content > div.tab-bar,
+#view > div > div > div.content > div > div.avatar > div.bottom > div,
+#view > div > div > div.content > div > div.content > div.subjects > div,
+#right-interface > div.settings-and-socicons > div.card-cont.settings.card-1,
+#view > div > div > div.content > div > div > div.list-cont > div.list > div,
+#view > div > div > div.content > div > div.leaderboard-cont > div.info-awards,
+#view > div > div > div.content > div > div.clans > div.my-clan > div.list-container,
+#app > div.end-modal > div.content > div.right-cont-content > div.list-cont.list-players,
+#view > div > div > div.content > div > div.leaderboard-cont > div.list-champions > div > div.top-items,
+#app > div.end-modal > div.content > div.right-cont-content > div.list-cont.list-players > div.top-items,
+#view > div > div > div.content > div > div.leaderboard-cont > div.list-champions > div > div.bottom-items,
+#view > div > div > div.content > div > div.clans > div.champions-container > div.awards-cont > div.cards > div,
+#app > div.end-modal > div.content > div.right-cont-content > div.next-round.text-2 > div.progress-line.progress-line.secondary {
+	background: var(--baseColor) !important;
+}
+
+
+/*  COLOR: ACCENT   */
+.win,
+.clan-tag,
+.label-killed,
+.nickname.primary,
+#view > div > div > div.content > div > div > div.preview.text-2 > div > div.head > div.map-name,
+#app > div.loading-scene > div.content.team > div > div > div.player-left > div.name.text-2 > div.label,
+#view > div > div > div.content > div > div > div.content > div.top-medium > div.top > div.card.k-d > div.stat-name.text-2,
+#view > div > div > div.content > div > div > div.content > div.top-medium > div.medium > div > div > div.stat-name.text-2,
+#app > div.loading-scene > div.content > div.players.text-1.players-1 > div > div.player-left > div.name.text-2 > div.label,
+#app > div.loading-scene > div.content > div.players.text-1.players-2 > div > div.player-left > div.name.text-2 > div.label,
+#view > div > div > div.content > div > div > div.chat-cont > div.chat.chat > div.messages.messages-cont.small > div > span.lvl,
+#app > div.game-interface > div.esc-interface > div.left-container > div.player-list > div > div.player-left > div.name > div.label,
+#view > div > div > div.content > div > div > div.content > div.top-medium > div.top > div.card.progress > div.progress-text-cont > div.progress-level > div.progress-level-value.text-2 {
+	color: var(--accentColor) !important;
+}
+.button:hover::after,
+#right-icons > div.card-cont.text-1.inventory-card:hover::after,
+#right-interface > div.settings-and-socicons > div.card-cont.settings.card-1:hover::after {
+	transform: scaleX(0) !important;
+}
+.text[data-v-02c36fca] {
+	z-index: 1;
+	-webkit-text-stroke: 0 !important;
+	transform: skew(0deg);
+}
+/* Checkbox and Private */
+.private-btn > span[data-v-47e1b746] {
+    content: url(https://media.discordapp.net/attachments/523517791886770188/953239076457316382/openlock.png);
+    position: fixed;
+    left: 45px;
+    width: 40px;
+}
+
+.private-btn > input:checked + span[data-v-47e1b746] {
+    content: url(https://media.discordapp.net/attachments/523517791886770188/953239093955948544/lock.png);
+}
+
+.custom-checkbox > span[data-v-47e1b746]:before {
+    border-radius: 50px;
+    background-color: white;
+    border: none;
+}
+
+.custom-checkbox > input:checked + span[data-v-47e1b746]:before {
+    background-color: #373737;s
+}
+.end-modal {
+    background: url(https://wallpapercave.com/wp/CQooiuV.jpg) !important;
+    background-size: 100% !important;
+}
+.end-modal .bottom{
+  display: none;
+}
+.logo[data-v-27986c34] {
+    content: url("https://iili.io/WXujUv.png")  !important;
+    position: absolute;
+    top: 8.7rem;
+    pointer-events: none;
+    transform-origin: top center;
+    max-width: 650px;
+    
+}
+.item-content[data-v-3bcb580a] {
+    background: transparent !important;
+}
+.background[data-v-040b7087] {
+    background: rgba(152,0,0,0)00;
+    border-radius: 6px;
+}
+.description[data-v-040b7087] {
+    max-height: 19rem;
+    width: 18rem;
+    height: 4rem;
+    padding: 0.9rem;
+    font-size: .875rem;
+    text-align:left;
+}
+.select-mod[data-v-6ef47e92], .select-region[data-v-6ef47e92] {
+    background-color: rgba(59,73,117,0);
+    border-radius: 0px;
+    border: 4px solid rgba(38,51,91,0);
+}
+.select-regions-cont[data-v-6ef47e92] {
+    background-color: rgba(59,73,117,0);
+    border: 4px solid rgba(38,51,91,0);
+    box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+}
+.select-mods-cont[data-v-6ef47e92] {
+    background-color: rgba(59,73,117,0);
+    border: 0px solid #26335b00;
+    box-shadow: 0 4px 4pxrgba(0,0,0,.25);
+    border-radius: 8px;
+}
+hr[data-v-27986c34] {
+    width: 95%;
+    background-color: #1e347200;
+    border: 3px solid #2f395700;
+    margin: 0;
+    margin-top: 6px;
+}
+.loader[data-v-a7408f32], .subjects[data-v-a7408f32] {
+    background:transparent;
+    border: 3px solid transparent;    
+}    
+.select-region[data-v-6ef47e92]:hover {
+    background: none !important;
+}
+.container-card[data-v-747e6ab9] {
+    background: linear-gradient(to bottom, #000000, #ff0000) !important;
+}
+.box[data-v-418ade5e] {
+    background: transparent;
+    border: transparent;
+}
+.select-mods-cont[data-v-6ef47e92]:hover {
+   background: none !important;
+}
+.avatar[data-v-7dd84507] {
+    background: black;
+}
+.description[data-v-dc99bd6e] {
+    background: transparent;
+    border: transparent;
+}
+.end-modal .team-list-players .card-cont:nth-child(1),
+.end-modal .team-list-players .card-cont:nth-child(2),
+.end-modal .items {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+.end-modal .team-list-players .label {
+    background: transparent;
+}
+
+.end-modal .label-text,
+.end-modal .points,
+.end-modal .lvl-leader {
+    color: white;
+}
+
+.end-modal .chat .input-wrapper {
+    top: 400px !important;
+    width: 103%;
+    height: 130px;
+}
+
+.end-modal #WMNn {
+    width: 310px;
+    margin-left: 20px;
+}
+
+.end-modal .team-list-players .list .player {
+    background: transparent;
+}
+/* Custom Font */
+@font-face {
+    font-family: customFont;
+    src: url(https://rawcdn.githack.com/SVN-ELVN/Kirka/d00a13be70e3b8b79f5da1db1200a4eb34181819/CSS/First/Fonts/Atami-Regular.otf)
+}
+
+* {
+    font-family: customFont !important;
+}
+.gun[data-v-24b4e698] {
+    background: transparent;
+    border-radius: 0.5rem;
+    border: 0.313rem solid rgba(41,49,75,0);   
+}
+.player[data-v-24b4e698] {
+    display: flex;
+    background: rgba(47,57,87,0);
+}
+.btn-invite[data-v-24b4e698] {
+    background-color: transparent;
+    border-radius: 0.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5rem;
+    border: 0.1rem solid rgba(13,17,32,0);
+    font-size: 1.7rem;
+}
+ /* Remove Global Chat */
+.chat-cont[data-v-b8b1ff7e] {
+    display: none!important;
+}
+.preview[data-v-b8b1ff7e] {
+    width: 30rem;
+}
+.image[data-v-b8b1ff7e] {
+    width: 30rem;
+}
+.select-mod[data-v-27986c34], .select-region[data-v-27986c34] {
+    float: right;
+    background-color: rgba(59,74,117,0);
+    padding: 4px 8px;
+    font-weight: 700;
+    border-radius: 6.4px;
+    border: 4px solid rgba(38,51,91,0);
+    cursor: pointer;
+}
+.select-mods-cont[data-v-27986c34] {
+    background-color: rgba(59,74,117,0);
+    border: 4px solid rgba(38,51,91,0);
+    box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 8px;
+    bottom:280px
+}
+.soc-group[data-v-78c6e76c]{
+    display: none !important
+}
+.soc-group[data-v-56e14a1d]{
+    display: none !important
+}
+.left-icons {
+    position: fixed;
+    top: !important;
+    
+  background: transparent !important;
+}
+#left-icons > div.icon-btn.text-1
+ {
+  background: none !important;
+}
+#left-icons > div.icon-btn.text-1 {
+  border: none !important;
+}
+.select-mod[data-v-27986c34]:hover, .select-region[data-v-27986c34]:hover {
+    float: right;
+    background-color: rgba(59,74,117,0);
+    padding: 4px 8px;
+    font-weight: 700;
+    border-radius: 6.4px;
+    border: 4px solid rgba(38,51,91,0);
+    cursor: pointer;
+}
+.select-regions-cont[data-v-27986c34] {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    right: 3px;
+    background: transparent;
+    border: transparent;
+    bottom: 275px;
+    backdrop-filter: blur(8px)
+}
+.card[data-v-49c6809c]{
+    background-color: transparent;
+    box-shadow: none;
+}
+.avatar[data-v-7dd84507] {
+    width: 48px;
+    height: 48px;
+    border: 4px solid black;
+    background-color: var(--secondary-3);
+    -ms-interpolation-mode: nearest-neighbor;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: pixelated;
+    background-repeat: no-repeat;
+}
